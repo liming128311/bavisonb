@@ -1,4 +1,6 @@
-![Sharefest](https://raw.github.com/Peer5/ShareFest/master/sharefest/public/img/logo.png)
+# Elementor
+
+![Elementor](https://raw.github.com/Peer5/Elementor/master/Elementor/public/img/logo.png)
 
 One-To-Many sharing application. Serverless.
 Eliminates the need to fully upload your file to services such as Dropbox or Google Drive.
@@ -7,10 +9,10 @@ Pure javascript-based. No plugins needed thanks to HTML5 WebRTC Data Channel API
 
 How does it work
 ================
-http://sharefest.me/faq
+http://Elementor.me/faq
 http://www.youtube.com/watch?v=p2HzZkd2A40&feature=youtu.be&t=15m30s
 
-Sharefest operates on a mesh network similar to Bittorrent network.
+Elementor operates on a mesh network similar to Bittorrent network.
 The main difference is that currently the peers are coordinated using an intelligent server.
 This coordinator controls which parts are sent from A to B and who shall talk with whom.
 Peer5 Coordinator (or any other solution) is used to accomplish this.
@@ -20,17 +22,17 @@ Supporting Chrome (>26) and Firefox (>19)
 First version includes a simple page that one user will drag a file onto to
 share, and other users will enter the first user's url and start downloading the file.
 
-Hosted version: http://sharefest.me
+Hosted version: http://Elementor.me
 
 TODO:
 ============
-* see issues - https://github.com/Peer5/ShareFest/issues
+* see issues - https://github.com/Peer5/Elementor/issues
 
 Quick setup
 ==============
 1. Install nodejs
-2. [Download](https://github.com/Peer5/ShareFest/archive/master.zip) this repo, or `git clone https://github.com/Peer5/ShareFest.git`
-3. `cd ShareFest`
+2. [Download](https://github.com/Peer5/Elementor/archive/master.zip) this repo, or `git clone https://github.com/Peer5/Elementor.git`
+3. `cd Elementor`
 4. `npm install --dedupe` to install dependencies.
 5. `npm start` to start the server
 6. http://localhost:13337 should work
@@ -42,7 +44,7 @@ REQUIRE_HTTPS: 1 redirect to HTTPS when http GET request is coming
 
 About
 ==============
-Sharefest started by Peer5 at the SV DevFest 2012 hackathon (San Jose).
+Elementor started by Peer5 at the SV DevFest 2012 hackathon (San Jose).
 It was soon open sourced to GitHub and now being developed by Peer5 and a community of great WebRTC hackers.
 
 License
